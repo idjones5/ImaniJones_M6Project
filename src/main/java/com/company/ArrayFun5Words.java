@@ -1,6 +1,5 @@
 package com.company;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 public class ArrayFun5Words {
@@ -17,9 +16,9 @@ public class ArrayFun5Words {
             userArr[i] = userWords;
         }
         System.out.println("\nYour words are: ");
-//        for (String element: userArr) {
-//            System.out.print(element + ", ");
-//        }
-        System.out.println(Arrays.toString(userArr));
+        for (String element : userArr) {
+            System.out.print(element + "\n");
+        }
     }
 }
+

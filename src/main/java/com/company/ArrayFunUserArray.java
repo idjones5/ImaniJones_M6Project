@@ -15,7 +15,7 @@ public class ArrayFunUserArray {
             userNumbers = scan.nextLine();
             userArr[i] = Integer.parseInt(userNumbers);
         }
-
+        System.out.println("The numbers you entered are: ");
         for (int element: userArr) {
             System.out.print(element + " ");
         }
